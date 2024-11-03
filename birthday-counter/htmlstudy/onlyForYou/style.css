@@ -1,0 +1,98 @@
+* {
+  font-family: Comic Sans MS, cursive;
+}
+
+p {
+  font-size: large;
+  justify-items: center;
+  text-align: center;
+  font-size: x-large;
+  font-weight: bolder;
+  font-style: italica;
+  line-height: 1.6em;
+}
+
+.HabiraBlond {
+  color: rgba(253, 253, 166, 0.736);
+  text-align: center;
+  border-color: rgb(228, 248, 5);
+  border-width: 3px;
+  border-style: double;
+  text-shadow: 0 4px 10px yellow;
+  box-shadow: 0 0 10px yellow;
+}
+
+.whiteNights {
+  color: black;
+  text-align: center;
+  border-width: 3px;
+  border-color: black;
+  border-style: groove;
+  text-shadow: 0 0 1px black;
+  box-shadow: 0 0 10px black;
+}
+.strawberries {
+  justify-items: center;
+  text-align: center;
+  color: rgb(213, 89, 11);
+  padding: 25px;
+  margin: 30px;
+  border-style: solid;
+  background-image: url(/birthday-counter/htmlstudy/images/strawberrie.png);
+  background-size: 9%;
+  text-align: center;
+  font-size: 99%;
+  border-style: groove;
+  border-color: red;
+  border-width: 4px;
+  box-sizing: padding-box;
+  padding: 1px;
+  margin: auto;
+  text-shadow: 0 0 10px #fdaaf4;
+  box-shadow: 0 0 10px red;
+}
+
+.blonde {
+  color: rgba(239, 239, 26, 0.661);
+  text-shadow: 0 0 10px rgb(173, 173, 2);
+}
+.h1Habira {
+  color: #fdaaf4;
+  text-shadow: 0 0 10px pink;
+}
+#HabiraPink {
+  color: #fdaaf4;
+  text-shadow: 0 0 10px#fdaaf4;
+}
+#redStrawberrie {
+  color: red;
+  text-shadow: 0 0 10px red;
+}
+#plus {
+  color: rgb(44, 38, 224);
+  text-shadow: 0 0 10px rgb(44, 38, 224);
+}
+
+body {
+  background: radial-gradient(pink, white, white, pink);
+  text-align: center;
+  filter: drop-shadow(4px 4px 8px black);
+}
+#shy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+
+@media (max-width: 768px) {
+  /* Стили для мобильных устройств */
+  #example-class {
+    padding: 10px;
+    font-size: 15px; /* Уменьшение размера шрифта при необходимости */
+  }
+}
+.image {
+  width: 90%;
+  height: auto;
+}
